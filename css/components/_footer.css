@@ -1,0 +1,29 @@
+.footer__inner {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.footers__text {
+    color: #2429AF;
+    font-size: 21px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.footer__link {
+    font-size: 21px;
+    transition: .4s, border .4s;
+}
+
+.footer__link:hover{
+    background-color: transparent;
+    border-color: var(--main-gray);
+    color: var(--secondary);;
+}

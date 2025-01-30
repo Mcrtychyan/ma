@@ -1,0 +1,11 @@
+@import 'vendor/_reset.css';
+@import 'vendor/_fonts.css';
+@import 'vendor/_global.css';
+@import 'components/_header.css';
+@import 'home/_home.css';
+@import 'home/_skills.css';
+@import 'vendor/_vars.css';
+@import 'home/_conect.css';
+@import 'components/_footer.css';
+
+@import '_cases.css'

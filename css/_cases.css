@@ -1,0 +1,123 @@
+.cases__top {
+    display: flex;
+    gap: 116px;
+}
+
+.cases__title {
+    font-size: 60px;
+    max-width: 360px;
+    margin-bottom: 116px;
+    letter-spacing: -1.8px;
+    color: #181717;
+    line-height: 0.98;
+}
+
+.cases__text {
+    font-size: 32px;
+    max-width: 580px;
+    margin-top: 64px;
+    color: var(--main-gray);
+    letter-spacing: -1.8px;
+}
+
+.cases__list {
+    display: flex;
+    flex-direction: column;
+    gap: 114px;
+}
+
+.cases__arrow {
+    margin-bottom: 114px;
+}
+
+
+.cases__item {
+    display: flex;
+    gap: 125px;
+    border-bottom: 2px solid;
+    padding-bottom: 106px;
+}
+
+.cases__item:last-child .cases__link {
+    color: var(--main-gray);
+}
+
+.cases__item:last-child .cases__link:hover {
+    background-color: transparent;
+    border-color: var(--main-gray);
+    color: var(--secondary);;
+}
+
+.cases__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cases__name {
+    font-family: var(--inter);
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 326px;
+    color: #181717;
+    margin-bottom: 25px;
+}
+
+.cases__components {
+    max-width: 356px;
+}
+
+.cases__info {
+    max-width: 356px;
+    font-size: 18px;
+    color: #181717;
+    font-weight: 400;
+    margin-bottom: 40px;
+    letter-spacing: -0.72px;
+    line-height: 24px;
+}
+
+.cases__subtext {
+    color: var(--main-gray);
+    max-width: 315px;
+    margin-bottom: 167px;
+    letter-spacing: -0.51px;
+    line-height: 17px;
+}
+
+.content__link {
+    color: #181717;
+    font-size: 32px;
+    font-weight: 500;
+    max-width: max-content;
+    transition: .4s, border .4s;
+}
+
+.content__link:hover{
+    background-color: transparent;
+    border-color: var(--main-gray);
+    color: var(--secondary);;
+}
+
+.cases__photo {
+    height: auto;
+    object-fit: cover;
+}
+
+.cases__link {
+    font-size: 18px;
+    text-decoration: underline;
+    margin-top: auto;
+    max-width: max-content;
+    color: var(--main-black);
+    transition: .4s, border .4s;
+}
+
+.cases__link:hover {
+    background-color: transparent;
+    border-color: var(--main-gray);
+    color: var(--secondary);;
+}
+
+.cases {
+    margin-bottom: 130px;
+}

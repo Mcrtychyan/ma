@@ -1,0 +1,32 @@
+.skills__content {
+    max-width: 625px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    margin-bottom: 135px;
+    font-family: var(--inter);
+}
+
+.skills__item {
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.skills__subtitle {
+    max-width: 125px;
+    width: 100%;
+    text-decoration: underline;
+
+}
+
+.skills__text p:not(:last-child) {
+    margin-bottom: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'inter' sans-serif;
+}

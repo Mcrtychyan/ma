@@ -1,0 +1,43 @@
+.conect__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 118px;
+}
+
+
+
+.linia {
+    margin-bottom: 71px;
+    height: 3px;
+ 
+}
+
+.conect__subtext {
+    font-size: 31px;
+    max-width: 350px;
+}
+
+.conect__icons{
+    display: inline-block;
+    transform: translate(4px);
+}
+
+.connect__info {
+    width: 100%;
+max-width: 440px;
+}
+
+.content__link {
+    display: flex;
+    font-size: 32px;
+    color: #181717;
+    max-width: 355px;
+    margin-bottom: 27px;
+    max-width: 100%;
+    letter-spacing: -0.96px;
+}
+
+.conect__text {
+    font-size: 18px;
+}

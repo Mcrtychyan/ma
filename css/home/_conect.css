@@ -10,7 +10,7 @@
 .linia {
     margin-bottom: 71px;
     height: 3px;
- 
+
 }
 
 .conect__subtext {
@@ -18,14 +18,14 @@
     max-width: 350px;
 }
 
-.conect__icons{
+.conect__icons {
     display: inline-block;
     transform: translate(4px);
 }
 
 .connect__info {
     width: 100%;
-max-width: 440px;
+    max-width: 440px;
 }
 
 .content__link {
@@ -36,6 +36,13 @@ max-width: 440px;
     margin-bottom: 27px;
     max-width: 100%;
     letter-spacing: -0.96px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.content__link:focus {
+    border-color: var(--secondary);
+    color: var(--secondary);
 }
 
 .conect__text {

@@ -47,9 +47,15 @@
         flex-direction: column;
         gap: 20px;
     }
-    
-    .footer__socials {
-        justify-content: flex-start;
-    }
-}
 
+    .footer__socials {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .footers__text {
+        text-align: center;
+    }
+
+}

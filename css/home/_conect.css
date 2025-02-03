@@ -48,3 +48,24 @@
 .conect__text {
     font-size: 18px;
 }
+
+@media (max-width: 680px) {
+    .conect__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conect__subtext {
+        font-size: 25px;
+    }
+
+    .content__link {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .conect__text{
+        text-align: center;
+    }
+    
+}

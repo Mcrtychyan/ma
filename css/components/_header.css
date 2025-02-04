@@ -44,3 +44,10 @@
     color: var(--secondary);
     
 }
+
+@media (max-width: 360px){
+    .header__list{
+        gap: 10px;
+        display: flex;
+    }
+}

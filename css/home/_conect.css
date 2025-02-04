@@ -66,17 +66,17 @@
         margin: 0 auto 27px;
     }
 
-    .conect__text{
+    .conect__text {
         text-align: center;
     }
-    
+
     .conect__icons {
         transform: rotate(90deg);
-        
+
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
     .conect__content {
         flex-direction: column;
@@ -89,7 +89,7 @@
         text-align: center;
     }
 
-    .conect__text  {
+    .conect__text {
         text-align: center;
     }
 
@@ -97,9 +97,29 @@
         font-size: 25px;
         margin: 0 auto 27px;
     }
-    
+
     .conect__icons {
         transform: rotate(90deg);
+
+    }
+}
+
+@media (max-width: 360px) {
+    .conect__subtext {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .content__info {
         
+    }
+
+    .content__link {
+        font-size: 20px;
+        
+    }
+
+    .conect__text {
+        font-size: 16px;
     }
 }

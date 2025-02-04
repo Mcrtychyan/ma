@@ -34,11 +34,22 @@
 
 @media (max-width: 768px) {
     .footer__link {
-        font-size: 19px;
+        font-size: 21px;
+    }
+
+    .footer__inner {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer__socials {
+        display: flex;
+        justify-content: center;
     }
 
     .footers__text {
-        font-size: 19px;
+        font-size: 21px;
+        text-align: center;
     }
 }
 
@@ -51,7 +62,6 @@
     .footer__socials {
         display: flex;
         justify-content: center;
-
     }
 
     .footers__text {

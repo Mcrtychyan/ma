@@ -53,19 +53,53 @@
     .conect__content {
         flex-direction: column;
         align-items: center;
+        margin-bottom: 80px;
     }
 
     .conect__subtext {
         font-size: 25px;
+        text-align: center;
     }
 
     .content__link {
         font-size: 25px;
-        text-align: center;
+        margin: 0 auto 27px;
     }
 
     .conect__text{
         text-align: center;
     }
     
+    .conect__icons {
+        transform: rotate(90deg);
+        
+    }
+}
+
+@media (max-width: 768px){
+
+    .conect__content {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    .conect__subtext {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .conect__text  {
+        text-align: center;
+    }
+
+    .content__link {
+        font-size: 25px;
+        margin: 0 auto 27px;
+    }
+    
+    .conect__icons {
+        transform: rotate(90deg);
+        
+    }
 }

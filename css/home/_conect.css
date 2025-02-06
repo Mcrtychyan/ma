@@ -26,9 +26,10 @@
 .connect__info {
     width: 100%;
     max-width: 440px;
+    max-width: max-content;
 }
 
-.content__link {
+.conect__link {
     display: flex;
     font-size: 32px;
     color: #181717;
@@ -38,9 +39,14 @@
     letter-spacing: -0.96px;
     border: 2px solid transparent;
     border-radius: 5px;
+    transition: .4s, border .4s;
 }
 
-.content__link:focus {
+.conect__link:hover {
+    color: var(--secondary);
+}
+
+.conect__link:focus {
     border-color: var(--secondary);
     color: var(--secondary);
 }
@@ -61,7 +67,7 @@
         text-align: center;
     }
 
-    .content__link {
+    .conect__link {
         font-size: 25px;
         margin: 0 auto 27px;
     }
@@ -73,6 +79,12 @@
     .conect__icons {
         transform: rotate(90deg);
 
+    }
+}
+
+@media (max-width: 1200px){
+    .conect__content{
+        margin-bottom: 100px;
     }
 }
 
@@ -93,7 +105,7 @@
         text-align: center;
     }
 
-    .content__link {
+    .conect__link {
         font-size: 25px;
         margin: 0 auto 27px;
     }
@@ -106,20 +118,26 @@
 
 @media (max-width: 360px) {
     .conect__subtext {
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
     }
 
-    .content__info {
-        
-    }
+    .content__info {}
 
-    .content__link {
+    .conect__link {
         font-size: 20px;
-        
+        text-align: center; 
     }
 
     .conect__text {
         font-size: 16px;
+    }
+
+    .conect__content {
+        margin-bottom: 60px;
+    }
+    
+    .linia{
+        margin-bottom: 30px;
     }
 }

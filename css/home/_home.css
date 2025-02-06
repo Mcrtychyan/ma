@@ -23,32 +23,84 @@
 
 .photo {}
 
-@media (max-width: 680px) {
-    .home__inner {
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 80px;
-        gap: 40px;
+
+@media (max-width: 1200px) {
+
+    .home__inner{
+        max-width: max-content;
+        gap: 100px;
+        margin-bottom: 100px;
     }
-
-    .home__content{
-        margin-bottom: 10px;
-    }
-
-
     .home__title {
-        font-size: 40px;
-        text-align: center;
+        font-size: 55px;
     }
 
-    .home__text {
-        font-size: 19px;
-        text-align: center;
+    .home__text{
+        font-size: 28px;
     }
-    
+
     .photo{
-        width:  350px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 1100px) {
+    .home__title{
+        font-size: 50px;
+    }
+
+    .home__text{
+        font-size: 26px;
+    }
+
+    .photo{
+        width: 400px;
         height: 500px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .home__title{
+        font-size: 48px;
+    }
+
+    .home__text{
+        font-size: 24px;
+    }
+
+    .photo{
+        width: 380px;
+        height: 480px;
+    }
+}
+
+@media (max-width: 900px) {
+    .home__title{
+        font-size: 46px;
+    }
+
+    .home__text{
+        font-size: 22px;
+    }
+
+    .photo{
+        width: 360px;
+        height: 460px;
+    }
+}
+
+@media (max-width: 800px) {
+    .home__title{
+        font-size: 40px;
+    }
+
+    .home__text{
+        font-size: 18px;
+    }
+
+    .photo{
+        width: 340px;
+        height: 440px;
     }
 }
 
@@ -60,7 +112,7 @@
         gap: 40px;
     }
 
-    .home__content{
+    .home__content {
         margin-bottom: 10px;
     }
 
@@ -75,9 +127,61 @@
         text-align: center;
         margin: 0 auto;
     }
-    
-    .photo{
-        width:  350px;
+
+    .photo {
+        width: 350px;
         height: 500px;
+    }
+}
+
+@media (max-width: 680px) {
+    .home__inner {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+        gap: 40px;
+    }
+
+    .home__content {
+        margin-bottom: 10px;
+    }
+
+
+    .home__title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .home__text {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .photo {
+        width: 350px;
+        height: 500px;
+    }
+}
+
+
+@media (max-width: 360px) {
+
+    .home__inner {
+        margin-bottom: 40px;
+        gap: 24px;
+    }
+
+    .home__title {
+        font-size: 20px;
+    }
+
+    .home__text {
+        font-size: 14px;
+    }
+
+    .photo {
+        width: 200px;
+        height: 270px;
+        object-fit: cover;
     }
 }

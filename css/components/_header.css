@@ -10,6 +10,8 @@
     left: 20px;
     justify-content: space-between;
     gap: 26px;
+    position: relative;
+    z-index: 50;
 }
 
 .header__nav {
@@ -46,6 +48,10 @@
 
 }
 
+.menu {
+    display: none;
+}
+
 @media (max-width: 1200px) {
     .header {
         margin-bottom: 100px;
@@ -65,7 +71,7 @@
         margin-bottom: 90px;
     }
 
-    .header__list   {
+    .header__list {
         gap: 24px;
     }
 }
@@ -88,76 +94,77 @@
     }
 }
 
-@media (max-width: 530px){
-    .header__nav{
+@media (max-width: 530px) {
+    .header__nav {
         display: none;
     }
-    
-    .header__inner{
+
+    .header__inner {
         right: 0;
         left: 0;
     }
 }
 
-@media (max-width: 400px){
-    .header{
+@media (max-width: 400px) {
+    .header {
         margin-bottom: 50px;
     }
 }
 
-@media (max-width: 530px){
+@media (max-width: 530px) {
 
 
-    
+
     .menu {
         width: 100%;
         height: 100%;
         top: 0;
         position: fixed;
-        background-color: gray;
+        z-index: 10;
+        background-color: rgb(218, 220, 221);
         display: block;
         pointer-events: none;
         user-select: none;
         transform: translateX(100%);
         overflow: hidden;
         transition: transform .6s;
-        border-color: rgb(235, 101, 101);
-        padding-top: 40px;
+        padding-top: 120px;
     }
-    
+
     .menu--open {
         transform: translateX(0);
         user-select: auto;
         pointer-events: auto;
     }
-    
+
     .menu__list {
         font-size: 18px;
         display: flex;
         list-style-type: none;
-        color: brown;
+        color: rgb(92, 6, 6);
         text-decoration: none;
     }
-    
+
     .menu__title {
         text-align: center;
+        margin-bottom: 35px;
     }
-    
+
     .menu__content {
         font-size: 20px;
         list-style-type: none;
         color: brown;
         display: flex;
-        gap: 30px;
+        gap: 40px;
         flex-direction: column;
         align-items: center;
     }
 
-    .menu__btn{
+    .menu__btn {
         border: 2px solid;
         width: 55px;
         height: 55px;
         background-image: url();
- 
+
     }
 }

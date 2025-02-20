@@ -4,5 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     menuBtn.addEventListener('click', function() {
         mobileMenu.classList.toggle('menu--open');
+        document.documentElement.classList.toggle('active');
     });
 })

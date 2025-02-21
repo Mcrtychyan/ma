@@ -161,10 +161,52 @@
     }
 
     .menu__btn {
-        border: 2px solid;
-        width: 55px;
-        height: 55px;
-        background-image: url();
+        display: block;
+        background-color: #fff;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
 
+    .menu__btn span,
+    .menu__btn span::before,
+    .menu__btn span::after {
+        position: absolute;
+        height: 3px;
+        margin-top: -2px;
+        width: 22px;
+        left: 0;
+        top: 50%;
+        transform: translateX(55%);
+        background-color: #222;
+    }
+
+    .menu__btn span::before,
+    .menu__btn span::after {
+        content: '';
+        transition: transform .3s;
+    }
+
+    .menu__btn span::before {
+        transform: translateY(-10px);
+    }
+
+    .menu__btn span::after {
+        transform: translateY(10px);
+    }
+
+    .menu__btn_active span::before {
+        transform: rotate(45deg);
+    }
+
+    .menu__btn_active span::after {
+        transform: rotate(-45deg);
+    }
+
+    .menu__btn_active span {
+        height: 0;
     }
 }

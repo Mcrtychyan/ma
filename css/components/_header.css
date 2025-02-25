@@ -6,8 +6,6 @@
 .header__inner {
     display: flex;
     align-items: center;
-    right: 64px;
-    left: 20px;
     justify-content: space-between;
     gap: 26px;
     position: relative;
@@ -17,14 +15,11 @@
 .header__nav {
     display: flex;
     gap: 31px;
-    text-align: center;
 }
 
 .header__list {
     display: flex;
     gap: 31px;
-    text-align: center;
-    list-style-type: none;
 }
 
 .header__link {

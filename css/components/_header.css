@@ -52,6 +52,11 @@
     display: none;
 }
 
+.menu__btn{
+    display: none;
+    
+}
+
 @media (max-width: 1200px) {
     .header {
         margin-bottom: 100px;

@@ -1,24 +1,13 @@
-new Swiper('.swiper', {
-
-    loop: true,
-
-    loop: true,
+new Swiper('.cases__swiper', {
+    direction: 'vertical',
+    loop: true, 
     spaceBetween: 20,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
+    autoHeight: true,
   
     // Navigation arrows
     navigation: {
       nextEl: '.cases__btn--next',
       prevEl: '.cases__btn--prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
     },
   
 })

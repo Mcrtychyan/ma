@@ -1,4 +1,4 @@
-new Swiper('.swiper', {
+new Swiper('.swiper-works', {
 
     loop: true,
 
